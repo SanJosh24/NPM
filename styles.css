@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #c12127;
+  color: #f3f5fb;
+  padding: 15px 0;
+  font-family: source sans pro;
+  line-height: 18px;
+  font-size: 16px;
+}
+
+nav a {
+  color: #f3f5fb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav div {
+  display: inline;
+}
+
+.acronym {
+  margin-left: 15px;
+  font-weight: 400;
+}
+
+.heart {
+  margin-left: 5px;
+}
+
+header {
+  background-image: url(https://static.npmjs.com/images/hero-cityscape.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(32, 101, 136);
+  width: 100%;
+  height: auto;
+  padding: 5px 10px 200px 5px;
+}
+
+.logo-search {
+  line-height: 24px;
+  width: 100%;
+}
+
+#search {
+  width: 70%;
+  background-color: rgb(31, 82, 111);
+  font-family: source sans pro;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid rgb(32, 101, 136, 1);
+  margin-right: 0;
+  display: inline-block;
+}
+.fa-search {
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgb(32, 101, 136, 1);
+  padding: 17px;
+  width: 4%;
+  margin-left: 0;
+  display: inline-block;
+}
+
+.logo-search p,
+a {
+  text-decoration: none;
+  color: white;
+  display: inline;
+  font-family: source sans pro;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.logo-search img,
+span {
+  vertical-align: middle;
+}
+
+#logo {
+  width: 10%;
+  height: auto;
+}
+
+#bear {
+  width: 4%;
+  height: auto;
+}
+
+.welcome {
+  font-family: open sans;
+  color: #f4f4f4;
+  width: 720px;
+  margin: 0 auto;
+  padding: 25px 250px 0 0;
+}
+.welcome p {
+  margin: 20px auto;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+}
+.welcome h1 {
+  font-weight: 200;
+  font-size: 48px;
+  line-height: 55px;
+}
+
+.button {
+  background-color: rgb(240, 146, 51);
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  border-radius: 40px;
+  padding: 10px 15px;
+}
+
+#orgs {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  font-family: open sans;
+  width: 100%;
+  height: 550px;
+}
+
+.orgtext {
+  padding: 150px;
+}
+
+.text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 41px;
+  font-weight: 600;
+}
+
+#high5 {
+  width: 450px;
+  margin: 150px;
+  float: left;
+}
+.but2 {
+  background-color: rgb(203, 56, 55);
+  margin: 5px;
+  display: inline-block;
+}
+
+#orgtext p {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 18px;
+  text-weight: 400;
+}
+
+.learn {
+  text-weight: 500;
+}
+
+#install {
+  clear: left;
+}
